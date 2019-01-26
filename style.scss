@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container-fluid{
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    h1, p{
+        text-align: center;
+        color: #fff;
+    }
+    border-top: 10px solid black;
+}
+#draw{
+    display: block;
+
+}
+input[type=color]{
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 40px;
+    background: none;
+    outline: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    outline: none;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: solid 1px #fff; /*change color of the swatch border here*/
+    border-radius: 40px;
+    outline: none;
+}
+
+h5{
+    color: #fff;
+}
+.container{
+    background: rgba(0, 0, 0, 0.7);
+    h1{
+        text-align: center;
+        color: #fff;
+    }
+}
+hr{
+    border-color: #000;
+}

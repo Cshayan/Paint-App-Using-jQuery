@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paint App</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container-fluid">
+            <h1>Paint Web App</h1><p>To erase any part of the image, use white color from color picker</p>
+         <div class="row">
+             <div class="col-md-3">
+                <button id="save" class="btn btn-success">Save</button>
+                 <button id="undo" class="btn btn-danger">Undo</button>
+                 <button id="clear" class="btn btn-primary">Clear</button>
+             </div>
+             <div class="col-md-7">
+                <h5>Change brush size:</h5><input type="range" min="1" max="50" value="10" id="brush">
+             </div>
+             <div class="col-md-2">
+                    <h5>Change color:</h5> <input id="pickColor" type="color" >
+            </div>
+         </div>
+         <a id="link"></a>
+     </div>
+        <canvas id="draw"></canvas>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
